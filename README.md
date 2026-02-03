@@ -8,6 +8,8 @@
 
 * For those WASM text format not supported by [wabt](https://github.com/WebAssembly/wabt) currently, parsing and converting into binary files are credited by [wasm-tools](https://github.com/bytecodealliance/wasm-tools).
 
+* For the [Component Model](https://github.com/WebAssembly/component-model) tests, the `json-from-wast` command of [wasm-tools](https://github.com/bytecodealliance/wasm-tools) is used for extracting into `json` and `wasm` files.
+
 ## Folders
 
 * `wasm-1.0`: The WASM 1.0 tests with the following proposal:
@@ -31,6 +33,7 @@
 * `threads`: The tests of the [Threads](https://github.com/webassembly/threads) proposal.
 * `exception-handling-legacy`: The legacy version tests of the [Exception handling](https://github.com/WebAssembly/exception-handling) proposal.
   * This is deprecated.
+* `component-model`: The tests of the [Component Model](https://github.com/WebAssembly/component-model) proposal.
 
 ## Whats Difference
 
